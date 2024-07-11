@@ -1,9 +1,9 @@
-// post  /signup  req  body- {google: False, email, password} (using google login button {google:True, email})  || res
+// post  /signup  req  body- {google: False, email, password} (using google login button {google:True, email})  || res JSON
 {
   data: [{ status: "success or failed" }];
 }
 
-// post  /login   req  body- {google: False, email, password} (using google signup button {google:True, email})  || res
+// post  /login   req  body- {google: False, email, password} (using google signup button {google:True, email})  || res JSON
 {
   data: [{ status: "success or failed" }];
 }
